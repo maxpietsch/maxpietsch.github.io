@@ -36,6 +36,8 @@ Data was release in the form of a normative [atlas](https://gin.g-node.org/maxpi
 - [Baby brain scans reveal trillions of neural connections](https://www.bbc.co.uk/news/health-39854654) (BBC, 10 May 2017)
 - [How to map the brain](https://www.nature.com/articles/d41586-019-02208-0) (Nature Outlook, 24 July 2019)
 
+![Neonatal tissue matruation contrast](assets/img/dhcp_neo.jpg)
+
 
 Another line of my work uses deep learning and statistical techniques to automatically detect and remove signatures of deteriorated data quality in diffusion MRI data. We train a neural network to make the data more consistent — without having access to non-corrupted data. Deep neural networks can introduce image features that are hard to understand. This is at odds with the purpose of medical data which needs to be interpretable to be useful. We approach this problem by constraining the network to produce images that have well-defined changes that limit the scopy of introducing local features. Furthermore, the changes are fully inspectable, increasing the trust in the modified data. We released the code and pretrained neural network as Docker image: [dStripe](https://github.com/maxpietsch/dStripe).
 
